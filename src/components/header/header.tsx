@@ -1,7 +1,8 @@
 "use client";
 
-import { ChevronLeft, Calendar, LayoutGrid } from "lucide-react";
-import { SearchBar } from "./search-bar";
+import { ChevronLeft } from "lucide-react";
+// import { ChevronLeft, Calendar, LayoutGrid } from "lucide-react";
+// import { SearchBar } from "./search-bar";
 import Link from "next/link";
 
 export function Header() {
@@ -14,17 +15,17 @@ export function Header() {
         </Link>
       </div>
 
-      <div className="flex-1 mx-4">
+      {/* <div className="flex-1 mx-4">
         <SearchBar />
-      </div>
+      </div> */}
 
       <div className="flex items-center gap-4">
-        <button className="p-2 rounded-md hover:bg-accent">
+        {/* <button className="p-2 rounded-md hover:bg-accent">
           <Calendar className="h-5 w-5" />
         </button>
         <button className="p-2 rounded-md hover:bg-accent">
           <LayoutGrid className="h-5 w-5" />
-        </button>
+        </button> */}
         <div className="flex items-center gap-2">
           <div className="flex flex-col items-end">
             <span className="text-sm font-medium">Welcome back</span>

@@ -12,22 +12,23 @@ interface StoryCardProps {
 
 export function StoryCard({ story }: StoryCardProps) {
   const [isHovered, setIsHovered] = useState(false);
-  
+
   return (
-    <div 
+    <div
       className="rounded-lg overflow-hidden border bg-card transition-all duration-300 animate-slide-up hover:shadow-md"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="relative h-48">
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-        <Image
-          src={story.image || "/placeholder.svg"}
-          alt={story.title}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-          className="w-full h-full object-cover"
-        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
+          <Image
+            src={story.image || "/placeholder.svg"}
+            alt={story.title}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+            className="w-full h-full object-cover "
+          />
+        </div>
         <div className="absolute top-3 right-3 flex gap-2">
           <div className="flex items-center gap-1 bg-black/50 text-white px-2 py-1 rounded-md text-xs">
             <Eye className="h-3 w-3" />
@@ -43,7 +44,7 @@ export function StoryCard({ story }: StoryCardProps) {
           </h3>
         </div>
       </div>
-      
+
       <div className="p-3">
         <div className="flex justify-between items-center mb-2">
           <div className="flex items-center gap-2">
@@ -54,18 +55,20 @@ export function StoryCard({ story }: StoryCardProps) {
               • {story.date}
             </span>
           </div>
-          <div className={cn(
-            "text-xs px-2 py-1 rounded",
-            story.status === "Published" && "bg-green-100 text-green-800",
-            story.status === "Draft" && "bg-gray-100 text-gray-800",
-            story.status === "Created" && "bg-blue-100 text-blue-800"
-          )}>
+          <div
+            className={cn(
+              "text-xs px-2 py-1 rounded",
+              story.status === "Published" && "bg-green-100 text-green-800",
+              story.status === "Draft" && "bg-gray-100 text-gray-800",
+              story.status === "Created" && "bg-blue-100 text-blue-800"
+            )}
+          >
             {story.status}
           </div>
         </div>
-        
+
         <div className="flex gap-2 mt-4">
-          <button className="flex-1 text-center py-2 border rounded-md hover:bg-accent transition-colors">
+          <button className="flex-1 text-center py-2 border rounded-md hover:bg-accent transition-colors bg-violet-100">
             View
           </button>
           <button className="p-2 border rounded-md hover:bg-accent transition-colors">
