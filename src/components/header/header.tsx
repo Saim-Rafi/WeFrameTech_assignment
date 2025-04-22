@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between px-4 py-4 border-b animate-fade-in">
+    <header className="flex items-center justify-between px-4 py-3 border-b animate-fade-in">
       <div className="flex items-center gap-3">
         <Link href="/" className="flex items-center gap-2 text-lg font-medium">
           <ChevronLeft className="h-5 w-5" />

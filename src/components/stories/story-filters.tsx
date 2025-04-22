@@ -33,8 +33,8 @@ export function StoryFilters({ onFilterChange }: StoryFiltersProps) {
           className={cn(
             "px-4 py-2 rounded-lg text-sm font-medium transition-colors",
             activeFilter === filter.label
-              ? "bg-primary text-primary-foreground"
-              : "bg-muted text-muted-foreground hover:bg-muted/80"
+              ? "bg-primary text-primary-foreground "
+              : "bg-muted text-muted-foreground hover:bg-muted/80 bg-gray-200 text-black"
           )}
           onClick={() => handleFilterClick(filter.label)}
         >

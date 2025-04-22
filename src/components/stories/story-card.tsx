@@ -15,11 +15,11 @@ export function StoryCard({ story }: StoryCardProps) {
 
   return (
     <div
-      className="rounded-lg overflow-hidden border bg-card transition-all duration-300 animate-slide-up hover:shadow-md"
+      className="rounded-lg overflow-hidden border bg-card transition-all duration-300 animate-slide-up hover:shadow-xl"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative h-48">
+      <div className="relative h-68">
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
           <Image
             src={story.image || "/placeholder.svg"}
