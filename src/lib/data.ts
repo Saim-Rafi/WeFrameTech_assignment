@@ -12,7 +12,7 @@ export const stories: Story[] = [
     {
       id: '1',
       title: 'How 7 lines code turned into $36 Billion Empire',
-      image: '/images/stories/code-laptop.jpg',
+      image: '/images/stories/code-laptop.jpeg',
       category: 'BUSINESS',
       date: '20 Sep 2022',
       status: 'Published',
@@ -30,7 +30,7 @@ export const stories: Story[] = [
     {
       id: '3',
       title: 'Teknion wins Gold at 2022 International Design Awards',
-      image: '/images/stories/design-award.jpg',
+      image: '/images/stories/design-award.png',
       category: 'Politics',
       date: '20 Sep 2022',
       status: 'Draft',
@@ -57,7 +57,7 @@ export const stories: Story[] = [
     {
       id: '6',
       title: 'Chez pierre restaurant in Monte Carlo by Vuidafieri',
-      image: '/images/stories/restaurant-interior.jpg',
+      image: '/images/stories/restaurant-interior.jpeg',
       category: 'BUSINESS',
       date: '20 Sep 2022',
       status: 'Published',

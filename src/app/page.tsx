@@ -1,7 +1,10 @@
-export default function Home() {
+import { MainLayout } from "@/components/layout/main-layout";
+import { StoryGrid } from "@/components/stories/story-grid";
+
+export default function StoriesPage() {
   return (
-    <div className="flex">
-      <p>This is heading</p>
-    </div>
+    <MainLayout>
+      <StoryGrid />
+    </MainLayout>
   );
 }
