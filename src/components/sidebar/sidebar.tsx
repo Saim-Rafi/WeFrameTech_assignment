@@ -18,7 +18,13 @@ import {
 } from "lucide-react";
 import { SidebarItem } from "./sidebar-item";
 import { cn } from "@/lib/utils";
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
