@@ -3,7 +3,7 @@
 Welcome to the **Blog Dashboard** project!  
 This is a modern, responsive blog management interface built with **Next.js**, featuring a content management-style UI that allows users to browse, filter, and manage stories.
 
-🔗 **Live Demo**: [we-frame-tech-assignment-seven.vercel.app](https://we-frame-tech-assignment-seven.vercel.app/)
+## 🔗 **Live Demo**: [we-frame-tech-assignment-seven.vercel.app](https://we-frame-tech-assignment-seven.vercel.app/)
 
 ---
 
