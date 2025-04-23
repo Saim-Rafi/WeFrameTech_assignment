@@ -2,9 +2,6 @@
 
 import { MoveLeft } from "lucide-react";
 import { ChevronDown } from "lucide-react";
-
-// import { ChevronLeft, Calendar, LayoutGrid } from "lucide-react";
-// import { SearchBar } from "./search-bar";
 import Link from "next/link";
 
 export function Header() {
