@@ -34,7 +34,7 @@ This is a modern, responsive blog management interface built with **Next.js**, f
 
 ```bash
 git clone https://github.com/Saim-Rafi/WeFrameTech_assignment.git
-cd blog-dashboard
+
 
 # Install dependencies
 npm install
