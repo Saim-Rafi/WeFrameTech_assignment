@@ -26,6 +26,8 @@ export function StoryCard({ story }: StoryCardProps) {
             src={story.image || "/placeholder.svg"}
             alt={story.title}
             fill
+            priority
+            quality={75}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
             className="w-full h-full object-cover opacity-80"
           />
