@@ -1,4 +1,4 @@
-<img width="1438" alt="Screenshot 2025-04-23 at 10 03 03 PM" src="https://github.com/user-attachments/assets/edbd7e1d-5f90-44a4-a37a-dbc5542b5130" /># Blog Dashboard — Next.js Project
+# Blog Dashboard — Next.js Project
 
 Welcome to the **Blog Dashboard** project!  
 This is a modern, responsive blog management interface built with **Next.js**, featuring a content management-style UI that allows users to browse, filter, and manage stories.
