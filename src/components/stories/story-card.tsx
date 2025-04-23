@@ -11,7 +11,8 @@ interface StoryCardProps {
 }
 
 export function StoryCard({ story }: StoryCardProps) {
-  const [isHovered, setIsHovered] = useState(false);
+  //   const [isHovered, setIsHovered] = useState(false);
+  const [, setIsHovered] = useState(false);
 
   return (
     <div
@@ -20,14 +21,15 @@ export function StoryCard({ story }: StoryCardProps) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="relative h-68">
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
+        <div className="absolute inset-0">
           <Image
             src={story.image || "/placeholder.svg"}
             alt={story.title}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-            className="w-full h-full object-cover "
+            className="w-full h-full object-cover opacity-80"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
         </div>
         <div className="absolute top-3 right-3 flex gap-2">
           <div className="flex items-center gap-1 bg-black/50 text-white px-2 py-1 rounded-md text-xs">

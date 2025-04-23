@@ -102,7 +102,7 @@ export function Sidebar() {
             label={collapsed ? "" : "Settings"}
             href="/settings"
           />
-          <div className="py-2 bg-violet-100 rounded-md">
+          <div className="py-2 bg-violet-100 rounded-md hover:bg-accent">
             <SidebarItem
               icon={Headphones}
               label={collapsed ? "" : "Contact Support"}
